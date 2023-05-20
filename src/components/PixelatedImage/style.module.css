@@ -1,0 +1,16 @@
+.ImageContainer {
+    position: relative;
+    width: 400px;
+  }
+  
+.ImageContainer canvas{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+  
+.ImageContainer img{
+    image-rendering: pixelated;
+    width: 100%;
+    height: auto;
+}
